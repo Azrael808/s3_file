@@ -5,3 +5,4 @@ license          "MIT"
 description      "Installs/Configures s3_file LWRP"
 long_description IO.read(File.join(File.dirname(__FILE__), 'README.md'))
 version          "2.7"
+depends          "build-essential"

@@ -1,3 +1,5 @@
+include_recipe 'build-essential'
+
 chef_gem 'mime-types' do
   version node['s3_file']['mime-types']['version']
   action :install
